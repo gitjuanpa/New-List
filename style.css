@@ -1,0 +1,182 @@
+.container{
+    position: relative;
+    padding: 0 40px;
+    background: #333;
+    border-bottom: 1px solid #111;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+}
+.container a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 10px rgb(255 255 255 / 20%);
+    left: 70%;
+    top: 30%;
+    padding-left: 30px;
+    margin-left: 20px;
+    color: #ccc;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida   Grande", sans-serif;
+}
+.nav{
+    position: relative;
+    width: 100%;
+    padding: 5px 40px 5px 40px;
+    background: #843ab8;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 30%), rgb(0 0 0 / 30%) 0 1px 3px, inset 0 1px 3 rgb(255 255 255 / 20%);
+    background-image:linear-gradient(#a648c4,#7930a7 );
+    background-size: 50px 50px, auto;
+    height: 45px;
+}
+img.flask  {
+    width: 100px;
+  
+  
+}
+.create{
+    background: #ebeef4;
+    border-bottom: 1px solid #d1d9e9;
+    position: relative;
+    padding: 10px 40px;
+    width: 100%;
+    height: 40px;
+    background-image: linear-gradient(#fdfdfe, #ececf6);
+}
+.create h1{
+    font-size: 28px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    color: #555;
+}
+
+
+/* ELEMENTO DE ENTRADA DE ESTILO Y EL PULSADOR */
+form{
+    font-size: 19px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    color: #555;   
+}
+form input{
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 20px 40px;
+    font-size: 3em;
+    box-sizing: border-box;
+    width: 100%; 
+}
+form button{
+    color: #c065c0;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 50px;
+    position: relative;
+    top: -80px;
+    left: 52%;
+}
+form button:hover{
+    background: #c065c0;
+    color: white;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+.select{
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+select{
+    color: #c065c0;
+    width: 8rem;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+.select::after{
+    content: "\25bc";
+    position: absolute;
+    color: #c065c0;
+    top: 7px;
+    right: 6px;
+    pointer-events: none;
+}
+
+.todo_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo_list{
+    min-width: 20%;
+    list-style: none;
+}
+
+.todo{
+    position: relative;
+    margin: 5px auto;
+    background: white;
+    color: #000000;
+    display: flex;
+    font-size: 2.2rem;
+    padding: 0.3rem;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+    right: 400px;
+}
+
+.todo li {
+    flex: 1;
+}
+
+/* Estilo de botones  */
+.complete_btn, 
+.delete_btn{
+    padding: 0.5rem;
+    background: #524d4c;
+    color: white;
+    border: none;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.complete_btn{
+    background: rgb(67, 179, 67);
+}
+.complete_btn:active{
+    background: green;
+}
+
+.delete_btn:active{
+    background: #b65337;
+}
+
+.fa-trash,
+.fa-check{
+    pointer-events: none;
+}
+
+.completedItem{
+    text-decoration: line-through;
+    opacity: 0.5;
+    transform: scale(0.96);
+}
+/*borrar las tarea*/
+.fall{
+    transform: translateY(4rem) scale(0.4) rotateZ(20deg);
+    opacity: 0;
+}
+
+
